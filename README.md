@@ -6,7 +6,7 @@ This repository contain the instructions to deploy the complete service for word
 
 ### Get Stater
 
-1 - First, you need create a storage class. Execute the file storage_class.yml
+1 - First, you need to create a storage class. Execute the file storage_class.yml
 
 2 - Now, let's create the secrets to own database. Execute the file secrets_db.yml. Remember of change the password into the file.
 
@@ -14,6 +14,6 @@ This repository contain the instructions to deploy the complete service for word
 
 4 - Now, let's create POD to run own wordpress. Execute the file wordpress.yml
 
-5 - We want access the website through 80 port, so we need the create a foward to that. Execute the file ingress_wordpress.yml
+5 - We want access the website through 80 port, so we need the create a forward to that. Execute the file ingress_wordpress.yml
 
 6 - Enjoy!
